@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: fantasy;
+}
+#header{
+    position: sticky;
+    top: 0;
+    background-color: #64748B;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.title a{
+    color: #303b4b;
+}
+.botton{
+    display: flex;
+    justify-content: flex-end;
+}
+.botton ul{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 4px;
+}
+.botton a{
+    font-size: 25px;
+    color: #303b4b;
+}
+/*  */
+/*  */
+/*  */
+#Start{
+    background-color: #303b4b;
+    margin-bottom: 10px;
+}
+#main{
+    background-color: #64748B;
+    min-height: 25vh;
+}
+.Text{
+    padding: 20px 90px 20px 90px;
+    color: #64748B;
+    height: 200px;
+}
+.Text p {
+    font-size: 21px;
+}
+/*  */
+#Exhibitions{
+    background-color: #303b4b;
+    min-height: 55vh;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 35px 15px;
+    gap: 30px;
+}
+.box{
+    display: flex;
+    
+}
+.photography{
+    height: 400px;
+    width: 295px;
+    padding: 3px;
+    border: solid 3px #64748B;
+    border-radius: 3%;
+}
+.box div{
+    display: flex;
+}
+.boxx{
+    display: flex;
+    flex-direction: column;
+}
+.Câmera-icon{
+    height: 15px;
+    width: 15px;
+}
+.author{
+    font-size: 13px;
+    padding-left: 2px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

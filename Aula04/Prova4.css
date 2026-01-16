@@ -4,13 +4,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #main{
-    background-color: #0F172A;
+    background-color: #041C2F;
 }
 
 #header{
     position: sticky;
     top: 0;
-    background-color: #1E293B;
+    background-color: #09506D;
 }
 #nav{
     display: flex;
@@ -21,7 +21,7 @@
 .Nome a{
     text-decoration: none;
     list-style: none;
-    color: #38BDF8;
+    color: #8DDAD8;
     font-size: 25px;
 }
 .botton{
@@ -33,7 +33,7 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
-    color: #38BDF8;
+    color: #8DDAD8;
 }
 /*  */
 /*  */
@@ -50,7 +50,7 @@
     align-items: center;
 }
 .Foto-Ramon img{
-    border: 4px solid #38BDF8;
+    border: 4px solid #299FB1;
     border-radius: 20%;
     width: 500px;
     height: 500px;
@@ -62,7 +62,7 @@
 .Texto-SobreMim p{
     margin-left: 50px;
     font-size: 35px;
-    color: #E5E7EB;
+    color: #BFE0E1;
 }
 /*  */
 /*  */
@@ -73,11 +73,11 @@
 }
 .Texto-Experiência h2{
     font-size: 55px;
-    color: #38BDF8;
+    color: #299FB1;
 }
 .Texto-Experiência p{
     font-size: 35px;
-    color: #E5E7EB;
+    color: #BFE0E1;
 }
 .HtmlCss-Icon{
     display: flex;
@@ -95,7 +95,7 @@
 /*  */
 /*  */
 #footer{
-    background-color: #0F172A;
+    background-color: #041C2F;
     min-height: 30vh;
 }
 #Contato{
@@ -103,7 +103,7 @@
 }
 .title-Contato h2{
     font-size: 55px;
-    color: #38BDF8;
+    color: #299FB1;
 }
 .botton-Contato{
     display: flex;

@@ -63,10 +63,10 @@
 }
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 35px 15px;
-    gap: 30px;
+    gap: 100px;
 }
 .box{
     display: flex;
@@ -95,4 +95,5 @@
     padding-left: 2px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }

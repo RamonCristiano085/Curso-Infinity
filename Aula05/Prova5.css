@@ -83,7 +83,6 @@
     display: flex;
 }
 .boxx{
-    display: flex;
     flex-direction: column;
 }
 .Câmera-icon{
@@ -97,3 +96,4 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+

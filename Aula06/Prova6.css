@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --BgHeader: #4a659c;
+    --ColorHeader: #fbf9fe;
+    --BgMain: #fbf9fe;
+    --BgFooter: #4a659c;
+    --BgSvBox: #ececec;
+    --TextoColor: #40474D;
+    --TextoSize: 17px;
+    --TituloColor: #233055;
+    --TituloSize: 30px;
+    --TituloBoxSize: #233055;
+    --BottonSize: 20px;
+
+}
+
+
+#header{
+    position: sticky;
+    top: 0;
+    background-color: var(--BgHeader);
+}
+.nav{
+    display: flex;
+    padding: 2px 15px;
+    justify-content: space-between;
+    max-height: 100%;
+}
+.Navegação ul{
+    display: flex;
+    padding: 7px 0px 0px;
+    gap: 15px;
+}
+.Navegação a{
+    color: var(--ColorHeader);
+    font-size: var(--BottonSize);
+}
+.Logo h1{
+    color: var(--ColorHeader);
+}
+
+
+#main{
+    background-color: var(--BgMain);
+}
+#Inicio{
+    min-height: 30vh;
+}
+.Inicio-Container{
+    padding: 30px;
+}
+.Inicio-Box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.Texto-Inicio{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 60px;
+}
+.Titulo-Inicio{
+    font-size: 25px;
+    color: var(--TituloColor);
+}
+.texto{
+    font-size: var(--TextoSize);
+    color: var(--TextoColor);
+}
+.ComeceBotton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--ColorHeader);
+    background: var(--BgHeader);
+    border-radius: 5px;
+    height: 30px;
+    width: 125px;
+}
+
+.Imagem img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+#Serviços{
+    min-height: 30vh;
+}
+.Serviço-Container{ 
+    margin: 50px;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.title{
+    font-size: var(--TituloSize);
+    color: var(--TituloColor);
+}
+.Caixas{
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+}
+.Serviço-Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--BgSvBox);
+    border-radius: 7%;
+    padding: 15px;
+    gap: 10px;
+}
+
+
+#Sobre{
+    min-height: 30vh;
+}
+.SobreNos{
+    margin: 100px;
+}
+.Conteúdo{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Contato{
+    background-color: var(--BgFooter);
+    min-height: 30vh;
+}
+.geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+.Contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+
+}
+.grid{
+    display: grid;
+    grid-template-rows: auto;
+}
+.Footer-Title{
+    font-size: var(--TituloSize);
+    color: var(--ColorHeader);
+}
+.Footer-Text{
+    font-size: var(--TextoSize);
+    color: var(--ColorHeader);
+}
+.inf{
+    margin-top: 2px;
+    color: #fff;
+    font-size: 10px;
+}
+
+
+
+
+@media (min-width: 480px) and (max-width: 599px) {
+
+    .Navegação{
+        display: none;
+    }
+    .nav{
+        justify-content: center;
+        align-items: center;
+    }
+    .Inicio-Box{
+        flex-direction: column;
+    }
+    .Caixas{
+        flex-direction: column;
+    }
+    .Imagem img{
+        width: 350px;
+    }
+    .Texto-Inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media (min-width: 600px) and (max-width: 769px) {
+
+    .Navegação{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Inicio-Box{
+        flex-direction: column;
+    }
+    .Caixas{
+        flex-direction: column;
+    }
+    .Texto-Inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+    --BgHeader: #4F615F;
+    --ClHeader: #BCB698;
+    --FtzHeader: 25px;
+    --BgMain: #29303A;
+    --ClTitle-Border: #B8B6A2;
+    --FtzTitle: 55px;
+    --ClText: #C7CBBF;
+    --FtzText: 35px;
+}
+#main{
+    background-color: var(--BgMain);
+}
+
+#header{
+    position: sticky;
+    top: 0;
+    background-color: var(--BgHeader);
+}
+#nav{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.Nome a{
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+    border-radius: 7px;
+    color: var(--ClHeader);
+    font-size: var(--FtzHeader);
+}
+.Nome a:hover{
+    color: var(--ClText);
+    background-color: var(--BgMain);
+    border: solid 2px var(--BgMain);
+}
+.botton{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.botton a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: var(--FtzHeader);
+    color: var(--ClHeader);
+    padding: 3px;
+    border-radius: 7px;
+}
+.botton a:hover{
+    color: var(--ClText);
+    background-color: var(--BgMain);
+    border: solid 2px var(--BgMain);
+}
+/*  */
+/*  */
+/*  */
+#Sobre{
+    min-height: 60vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SobreMim{
+    display: flex;
+    align-items: center;
+}
+.Foto-Ramon img{
+    border: 4px solid var(--ClTitle-Border);
+    border-radius: 20%;
+    width: 500px;
+    height: 500px;
+    padding: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+.Texto-SobreMim p{
+    margin-left: 50px;
+    font-size: var(--FtzText);
+    color: var(--ClText);
+}
+/*  */
+/*  */
+/*  */
+#Experiência{
+    min-height: 40vh;
+    padding: 15px;
+}
+.Texto-Experiência h2{
+    font-size: var(--FtzTitle);
+    color: var(--ClTitle-Border);
+}
+.Texto-Experiência p{
+    font-size: var(--FtzText);
+    color: var(--ClText);
+}
+.HtmlCss-Icon{
+    display: flex;
+    justify-content: center;
+
+}
+.HtmlCss-Icon ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 777px;
+    margin-top: 35px;
+}
+/*  */
+/*  */
+/*  */
+#footer{
+    background-color: var(--BgMain);
+    min-height: 30vh;
+}
+#Contato{
+    padding: 15px;
+}
+.title{
+    font-size: var(--FtzTitle);
+    color: var(--ClTitle-Border);
+}
+.botton-Contato{
+    display: flex;
+    justify-content: center;
+}
+.botton-Contato ul{
+    display: flex;
+    justify-content: center;
+    gap: 777px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 55px;
+}
+.WhtsApp{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.WhtsApp ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 3px;
+
+}
+.WhtsApp p{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 1px;
+    color: var(--ClText);
+}
+@media (min-width: 480px) and (max-width: 1000px) {
+
+    #main{
+        max-width: 100%;
+    }
+    .botton{
+        display: none;
+    }
+    .SobreMim{
+        flex-direction: column;
+    }
+    .Foto-Ramon img{
+        height: 250px;
+        width: 250px;
+    }
+    .Texto-SobreMim p{
+        font-size: 18px;
+        margin: 0;
+    }
+    .title  {
+        font-size: 35px;
+        padding: 0px 0px 10px;
+    }
+    .Texto-Experiência p{
+        font-size: 18px;
+    }
+    .HtmlCss-Icon ul{
+        gap: 200px;
+    }
+    .botton-Contato ul{
+        gap: 200px;
+        margin-top: 22px;
+    }
+    
+}

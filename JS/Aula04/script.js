@@ -4,7 +4,7 @@ let rsp = 0
 let rsp2 = 0
 
 
-for (i = 0; i < qntd; i++){
+for (let i = 0; i < qntd; i++){
     let itens = prompt("Digite os itens")
     lista.push(itens)
 }
@@ -17,7 +17,7 @@ if(rsp === "S"){
 
     qntd = Number(prompt("Quantos itens?"))
 
-    for (i = 0; i < qntd; i++){
+    for (let i = 0; i < qntd; i++){
         itens = prompt("Digite os itens")
         lista.push(itens)
     }

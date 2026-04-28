@@ -49,7 +49,7 @@ formulario.addEventListener("submit", function(e){
     formulario.reset()
 })
 
-const limpar =document.getElementById("limpar")
+const limpar = document.getElementById("limpar")
 limpar.addEventListener("click", function(){
     box.innerHTML = `<h2 class="titulo">Dados</h2>`
 })

@@ -18,12 +18,23 @@ const lista = document.createElement("ul")
 lista.classList.add("lista")
 box.appendChild(lista)
 
-
 container.appendChild(box)
 
 formulario.addEventListener("submit", function(e){
 
-    e.preventDefault()
+e.preventDefault()
+    
+const box = document.createElement("div")
+box.classList.add("box")
+box.innerHTML = `<h2 class="titulo">Dados</h2>`
+document.body.appendChild(box)
+
+
+const lista = document.createElement("ul")
+lista.classList.add("lista")
+box.appendChild(lista)
+
+container.appendChild(box)
     
     if(
         usuario.value === "" ||
